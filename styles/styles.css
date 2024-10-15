@@ -5,14 +5,71 @@ body {
   background-repeat: no-repeat;
   background-color: black;
   height: 100vh;
+  margin: 0px;
+  min-height: 100%;
+}
+
+nav {
+  background-color: orange;
+  margin-left: -0.35%;
+  margin-right: -0.40%;
+  color: white;
 }
 
 h1 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 900;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  color: #FFF2CC;
-  font-size: 20vh;
+  color: #fff2cc;
+  margin-right:10px;
+  text-align: right;
+  margin: 0%;
+  margin-top: 3%;
+  font-size: 120px;
+  line-height: 110px;
+  padding-right: 30px;
+  
+}
+
+
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialmediaicon {
+  width: 80px;
+  padding: 10px;
 }
