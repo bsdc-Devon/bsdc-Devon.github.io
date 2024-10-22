@@ -12,8 +12,10 @@ body {
 nav {
   background-color: orange;
   margin-left: -0.35%;
-  margin-right: -0.40%;
+  margin-right: -0.4%;
   color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
 }
 
 h1 {
@@ -23,19 +25,16 @@ h1 {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   color: #fff2cc;
-  margin-right:10px;
+  margin-right: 10px;
   text-align: right;
   margin: 0%;
   margin-top: 3%;
-  font-size: 120px;
-  line-height: 110px;
+  font-size: 15vw;
+  line-height: 14vw;
   padding-right: 30px;
-  
 }
 
-
-
-  ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -72,4 +71,7 @@ footer {
 .socialmediaicon {
   width: 80px;
   padding: 10px;
+  height: 80px;
 }
+
+
